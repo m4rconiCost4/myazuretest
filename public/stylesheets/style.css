@@ -1,8 +1,28 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  }
+body p {
+  font-size: 50px;
 }
-
 a {
-  color: #00B7FF;
+  color: rgb(255, 102, 0);
+}
+#ruby {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+h1{
+
+  margin-left: 45%;
+  margin-right: auto;
+  width: 25%;
+}
+#player {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
