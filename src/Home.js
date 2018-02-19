@@ -7,15 +7,15 @@ class Home extends Component{
         return(
         <div id= "body">
               <img src={cthulu} className="logo" alt="logo" />
-            <p>This is the Home</p>
+            <p>H. P. Lovecraft histories!</p>
         <Link className="links" to="Dagon">
           Dagon {' '}
         </Link>
-        <Link className="links" to='History'>
-        History {' '}
+        <Link className="links" to='Cthulu'>
+        Cthulu {' '}
         </Link>
-        <Link className="links" to='Dashboard'>
-        Dashboard
+        <Link className="links" to='Azathoth'>
+        Azathoth
         </Link>
       </div>
         )

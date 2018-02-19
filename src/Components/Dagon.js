@@ -1,17 +1,17 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import cthulu from "../images/cthulu.jpg"
+import dagon from "../images/Dagon.png"
 import "./index.css";
 class Dagon extends Component{
     render(){
         return(
             <div id= "body">
-               <img src={cthulu} className="logo" alt="logo" />
+               <img src={dagon} className="logo" alt="logo" />
+               <h1>Dagon</h1>
                 <p id= "text">Estou escrevendo isto sob uma grande tensão mental, já que nesta noite eu não deverei mais existir.
                      Sem um centavo, e no fim do meu suprimento de remédio que por si só consegue tornar minha vida tolerável, 
                      eu já não consigo suportar mais a tortura; e devo me atirar dessa janela do sótão em direção a rua esquálida lá embaixo.
                       Não pense que por causa da minha escravidão à morfina eu seja um fraco ou um degenerado. Quando você tiver lido estas páginas rabiscadas às pressas você poderá imaginar, porém nunca perceber completamente, o motivo pelo qual eu preciso ter o completo esquecimento ou a morte.
-
 Foi num dos trechos mais abertos e pouco frequentados do extenso Pacífico, que o paquete do qual eu era comissário de bordo foi vítima de um navio corsário alemão. A grande guerra estava até então bem no seu início, e as forças oceânicas dos Hunos² não haviam afundado completamente para as suas degradações posteriores; de modo que nossa embarcação se tornara um legítimo prêmio, enquanto nós da tripulação fomos tratados com toda a equidade e consideração devida a nós como prisioneiros navais. Era tão liberal, de fato, a disciplina dos nossos captores, que cinco dias após termos sido tomados, eu consegui escapar sozinho num pequeno barco com água e suprimentos para um bom período de tempo.
 
 Quando finalmente me encontrei à deriva e livre, eu não tinha a mínima ideia do que me rodeava. Nunca um navegador competente, eu só podia adivinhar vagamente pelo sol e pelas estrelas que eu estava um pouco ao sul do Equador. Da longitude eu nada sabia, e nenhuma ilha ou linha costeira estava à vista. O tempo se manteve firme, e por incontáveis dias eu flutuei sem direção debaixo do sol escaldante; esperando ou por algum navio passageiro, ou ser atirado às praias de alguma terra habitável. Mas nem navio ou terra apareceu, e eu comecei a me desesperar em minha solidão sobre a vastidão ondulante de interminável azul.
@@ -47,11 +47,11 @@ Quando saí das trevas eu estava num hospital em São Francis­co; levado pelo c
 
 O fim está próximo. Ouço um ruído à porta, como se um imenso corpo escorregadio a estivesse serrando. Ele não deve me encontrar. Deus, aquela mão! A janela! A janela!</p>
 
-            <Link className="links" to="History">
-            History {' '}
+            <Link className="links" to="Cthulu">
+            Cthulu {' '}
             </Link>
-            <Link className="links" to='Dashboard'>
-            Dashboard
+            <Link className="links" to='Azathoth'>
+            Azathoth
             </Link>
           </div>
             )
