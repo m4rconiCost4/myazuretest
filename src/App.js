@@ -1,21 +1,22 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import Loadable from "react-loadable";
+let WrappedComponent = "";
+let LoadableComponent = "";
+const Loading = () => <div>Loading...</div>;
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
+function withSubscription() {
+  return class hoc extends Component {
+ 
+    render() {
+      console.log(this.props.match.params.componente)
+        WrappedComponent = Loadable({
+        loader: () =>
+          import("./Components/" + this.props.match.params.componente),
+        loading: Loading
+      });
+
+      return <WrappedComponent />;
+    }
+  };
 }
-
-export default App;
+export default withSubscription;
