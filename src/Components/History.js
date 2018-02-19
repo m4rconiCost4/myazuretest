@@ -8,8 +8,8 @@ class History extends Component{
             <div id= "body">
                <img src={cthulu} className="logo" alt="logo" />
                 <p>This is the History</p>
-            <Link className="links" to="/Settings">
-              Settigs {' '}
+            <Link className="links" to="Dagon">
+            Dagon {' '}
             </Link>
             <Link className="links" to='Dashboard'>
             Dashboard

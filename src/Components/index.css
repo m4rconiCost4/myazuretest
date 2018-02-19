@@ -11,3 +11,18 @@ text-decoration: none
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }
+
+#text {
+  font-weight:bold;
+  color:#5C0E0E;
+  border: 2px solid #b5a759;
+  letter-spacing:0pt;
+  word-spacing:3pt;
+  font-size:20px;
+  text-align:left;
+  font-family:times new roman, times, serif;
+  line-height:1;
+  margin-left: 10%;
+  margin-right: 10%;
+
+}

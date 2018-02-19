@@ -8,8 +8,7 @@ function withSubscription() {
   return class hoc extends Component {
  
     render() {
-      console.log(this.props.match.params.componente)
-        WrappedComponent = Loadable({
+            WrappedComponent = Loadable({
         loader: () =>
           import("./Components/" + this.props.match.params.componente),
         loading: Loading
