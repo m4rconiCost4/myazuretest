@@ -3,6 +3,7 @@
   "version": "2.0.0",
   "main": "js/main.js",
   "scripts": {
+    "postinstall": "npm run build",
     "build": "mkdir -p build && browserify js/main.js -o build/build.js",
     "watch": "mkdir -p build && watchify js/main.js -o build/build.js -dv",
     "serve": "open http://localhost:9876 && python -m SimpleHTTPServer 9876",
